@@ -23,9 +23,6 @@ for i = 1, 24 do
     textLabel.Parent = frame
 end
  
---Crate a Button [Gizle]
-local hideButton  = Intance . new["TextButton"]
-hideButton.Size = UDim2.new
 
 
 
