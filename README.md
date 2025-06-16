@@ -22,7 +22,71 @@ for i = 1, 24 do
     textLabel.TextScaled = true -- Automatically scale the text to fit
     textLabel.Parent = frame
 end
- 
+ local gui = Instance.new("ScreenGui", game.Players.LocalPlayer.PlayerGui)
+local btn = Instance.new("TextButton", gui)
+btn.Size = UDim2.new(0,120,0,40)
+btn.Position = UDim2.new(0.5,-60,0.5,-20)
+btn.Text = "Gizle"
+btn.BackgroundColor3 = Color3.fromRGB(200,60,60)
+btn.TextColor3 = Color3.new(1,1,1)
+btn.MouseButton1Click:Connect(function()
+    gui.Enabled = false
+end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
