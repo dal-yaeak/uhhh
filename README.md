@@ -1,8 +1,9 @@
---Tamamen bos bir ScreenGui olusturur
-local SreenGui = Intance.new["ScreenGui"]
+--Tamamen bos bir ScreenGui oluturur
+local ScreenGui.Name = Instance.new ("ScreenGui")
 ScreenGui.Name = "EmptyGui"
-ScreenGui.ResetOnspawn = true
-ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui"]
+ScreenGui.ResetOnSpawn = true 
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
 
 
 
