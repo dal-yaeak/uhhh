@@ -1,4 +1,4 @@
---Tmamen bos bir ScreenGui olusturur
+--Tamamen bos bir ScreenGui olusturur
 local SreenGui = Intance.new["ScreenGui"]
 ScreenGui.Name = "EmptyGui"
 ScreenGui.ResetOnspawn = true
