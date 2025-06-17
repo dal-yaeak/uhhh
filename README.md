@@ -4,11 +4,11 @@ ScreenGui.Name = "EmptyGui"
 ScreenGui.ResetOnSpawn = true 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
-
-
-
-
-
+--500x500 boyutunda bir Frame ekle
+local Frame = Instance.new("Frame")
+Frame.Size = UDim2.new(0, 500, 0, 500)
+Frame.Position = UDim2.new(0.5, -250, 0.5, -250) --Ortalamak için
+Frame.AnchorPoint = Vector2.new(0.5, 0.5)
 
 
 
